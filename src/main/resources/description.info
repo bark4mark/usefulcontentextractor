@@ -1,0 +1,7 @@
+Writing a useful content extractor:
+* Should take a site map URI
+* Traverses the site map, creating folders and placing the useful content into each as a html file
+* Should take a map of content to include and ignore
+** Included content is content boilerpipe doesn't find useful but we force it to be included
+** Ignored content is content boilerpipe finds useful but we force it to be ignored
+** Order of the content should be kept
